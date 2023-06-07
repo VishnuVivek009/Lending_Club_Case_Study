@@ -27,15 +27,25 @@ So to find the solution for the problem stated above we did some analysis on the
 Conclusion and Recommendation
 After analyzing all the multivariate charts, we can clearly observe the potentially strong indicators/ predictors of
 loan default. These are following:
+<br>
+<br>
 ➢ annual_inc - The self-reported annual income provided by the borrower during registration.
+<br>
 ➢ grade - LC assigned loan grade
+<br>
 ➢ last_pymnt_amnt - Last total payment amount received
+<br>
 ➢ term - The number of monthly payments on the loan.
+<br>
 ➢ int_rate - Interest Rate on the loan
+<br>
 ➢ dti - A ratio calculated using the borrower’s total monthly debt divided by the borrower’s self-reported monthly
 income.
+<br>
 ➢ revol_util - Amount of credit the borrower is using relative to all available revolving credit.
-
+<br>
+<br>
+<br>
 Reason for their selection:
 There are few more variables which have shown strong trends with loan default status, however those variables are not as
 good indicators as above mentioned variables because these selected variables individually and in combination with each
